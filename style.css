@@ -84,6 +84,11 @@ responsive css
 -------------------------------
  */
  @media (max-width: 62em){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
    .mobile-nav-btn{
     display: block;
     z-index: 999;
